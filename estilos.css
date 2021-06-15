@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(224, 235, 243);
+    font-size: 20px;
+    }
+
+form{
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+}
+nav{
+    text-align: right;
+    background-color: rgb(235, 172, 172);
+    padding: 3px;
+    position: fixed;
+    top: 0px;
+    left: 70%;
+}
+img{
+    width: 100px;
+}
+footer{
+    background-color: rgb(77, 83, 44);
+    text-align: center;
+    padding: 8px;
+}
+article{
+    width: 70%;
+}
+section{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    background-color: rgba(5, 24, 66, 0.603);
+    margin: 50px;
+    height: 5px;
+}
+ul li{
+    list-style: none;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 10px 0px;
+}
+#inicio,#quienes,#galeria,#contacto{
+    height: 300px;
+}
